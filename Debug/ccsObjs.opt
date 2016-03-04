@@ -1,0 +1,1 @@
+"./filter_coeff.obj" "./fir.obj" "./main.obj" "./processing.obj" "./signal.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib" -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
