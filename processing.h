@@ -19,4 +19,15 @@ void interpolate(Int16 *input, Int16 *output, int L, int N);
 
 void resample(Int16 *input, Int16 *output, int L, int M, int N);
 
+Int16 upsample_fir(Int16* input, Int16 *coeffs, Int16 *z, unsigned short order, unsigned short nx, Int16* output, int L);
+
+Int16 resample_fir(
+	Int16* input,
+	Int16 *coeffs,
+	Int16 *z,
+	unsigned short order,
+	unsigned short nx,
+	Int16* output,
+	int L,
+	int M);
 #endif /* PROCESSING_H_ */
